@@ -7,7 +7,7 @@ int adjmtx[max_size][max_size], bfsqueue[max_size], visited[max_size], s;
 int front = -1, rear = -1, data, v, i, j;
 
 int enqueue(int v) {
-    if (front == (max_size - 1)) {
+    if (rear == (max_size - 1)) {
         printf("Queue is full\n");
         exit(1);
     }
