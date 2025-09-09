@@ -1,7 +1,0 @@
-f=open("f2.txt","r")
-lines=f.readlines()
-f.close()
-N= len(lines)
-f1=open("f2.txt","r")
-print("no of lines in the file:",N)
-print("\n file contents:\n\n",f1.read(),sep="")
